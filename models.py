@@ -3,7 +3,7 @@ import os
 from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-load_dotenv()
+_ = load_dotenv() # forcar a execucao
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -23,7 +23,7 @@ MODEL_CONFIGS = [
     {
         "key_name": "o4",
         "provider": "openai",
-        "model_name": "o4-mini-2025-04-06",
+        "model_name": "o4-mini-2025-04-16",
     },
     {
         "key_name": "gpt_4o",

@@ -8,3 +8,6 @@ uvicorn
 python-dotenv
 openai
 google-ai-generativelanguage
+langgraph-cli
+langgraph-runtime-inmem
+langgraph-cli[inmem]
