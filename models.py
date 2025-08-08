@@ -17,7 +17,8 @@ MODEL_CONFIGS = [
     {
         "key_name": "gemini_2.5_flash",
         "provider" : "google",
-        "model_name": "gemini-2.5-flash-preview-04-17",
+        #"model_name": "gemini-2.5-flash-preview-04-17",
+        "model_name": "gemini-1.5-flash",  # Updated to current model name
         "temprature": 1.0,
     },
     {
